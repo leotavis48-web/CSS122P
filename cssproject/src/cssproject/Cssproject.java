@@ -4,6 +4,8 @@
  */
 package cssproject;
 
+import form.login;
+
 /**
  *
  * @author kirkd
@@ -15,6 +17,8 @@ public class Cssproject {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+                new login().setVisible(true);
+
     }
     
 }
